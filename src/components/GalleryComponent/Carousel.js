@@ -82,7 +82,10 @@ const CarouseComponent = ({ images }) => {
                 {images.map((image, index) => {
                     return (
                         <div key={index}>
-                            <img src={image} alt="photo" />
+                            <img
+                                src={`${process.env.PUBLIC_URL}/${image}`}
+                                alt="photo"
+                            />
                         </div>
                     );
                 })}
