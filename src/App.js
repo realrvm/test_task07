@@ -22,7 +22,7 @@ function App() {
                         render={() => <Home data={data} />}
                         exact
                     />
-                    <Route path="/about" component={About} />
+                    <Route path="/test_task07/about" component={About} />
                 </Switch>
                 <Footer />
             </StyledApp>

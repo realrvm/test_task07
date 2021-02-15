@@ -40,12 +40,19 @@ const Header = () => {
         <StyledHeader>
             <ul>
                 <li>
-                    <StyledHeaderHome to="/" exact activeClassName="active">
+                    <StyledHeaderHome
+                        to="/test_task07"
+                        exact
+                        activeClassName="active"
+                    >
                         Тестовое задание
                     </StyledHeaderHome>
                 </li>
                 <li>
-                    <StyledHeaderAbout to="/about" activeClassName="active">
+                    <StyledHeaderAbout
+                        to="/test_task07/about"
+                        activeClassName="active"
+                    >
                         About
                     </StyledHeaderAbout>
                 </li>
